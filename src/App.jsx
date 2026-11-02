@@ -3,11 +3,7 @@ import { Szinek } from './assets/components/Szinek'
 
 function App() {
   return (
-    <>
-    <div className='Szinvalaszto'>
-        <Szinek/>
-    </div>
-    </>
+    <Szinek/>
   )
 }
 
