@@ -1,24 +1,23 @@
 import { useState } from "react";
 
-const szinek = [
+function Szinek() {
+    const szinek = [
     {
-        RGB: "#94acd4",
+        RGB: "148, 172, 212",
         nev: "turkiz"
     },
     {
-        RGB: "#ff1500",
+        RGB: "255, 21, 0",
         nev: "piros"
     },
     {
-        RGB: "#ff00e1",
+        RGB: "255, 0, 225",
         nev: "magenta"
     }
 ]
-
-function Szinek() {
     { szinek.map( (szin, i => {
-        //Gondolom a szín lenne jobb megjelenitésnek.
-        return <option key={i} id={i.nev}>{szinek.nev}</option>
+        //Gondolom a szín nevét lenne jobb megjelenitésnek.
+        return <option key={i} id={i.nev}>{i.nev}</option>
     }) ) }
 }
 

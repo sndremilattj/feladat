@@ -5,9 +5,7 @@ function App() {
   return (
     <>
     <div className='Szinvalaszto'>
-      <select name="" id="szinek">
         <Szinek/>
-      </select>
     </div>
     </>
   )
